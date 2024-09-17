@@ -27,21 +27,56 @@ header h1 {
 
 }
 header h2 {
+    color: white;
+    position: fixed;
+    right: 20px;
+    top: 150px;
+
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        list-style: none;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+}
+nav ul li {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 100%;
+        
+}
+nav ul li a {
             display: flex;
             align-items: center;
-            justify-content: end;
-            color: white;
+            justify-content: space-evenly;
             width: 100%;
             height: 100%;
-
+            color: white;
+            text-decoration: none;
+            background-color: rgb(58, 58, 58);
+}
+nav ul li a :hover{
+                    background-color: blue;
 
 }
-
 main {
     display: list-item;
-
+    height: 635px;
 }
-
 main h2 {
         display: list-item;
         font-size: 30px;
@@ -52,9 +87,9 @@ main p {
         display: list-item;
         font-size: 20px;
         height: 400px;
-    border: 2px solid black;
-    padding: 5px;
-    list-style: none;
+        border: 2px solid black;
+        padding: 5px;
+        list-style: none;
 }
 footer {
     display: flex;
