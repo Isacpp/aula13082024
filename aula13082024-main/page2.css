@@ -1,0 +1,105 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header {
+        display: flex;
+        align-items: center;
+        background-color: black;
+        border: 2px;
+        height: 200px;
+
+}
+header h1 {
+    display: flex;
+    align-items:center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin-left: 90px;
+    font-size: 50px;
+
+}
+header h2 {
+    color: white;
+    position: fixed;
+    right: 20px;
+    top: 150px;
+
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30px;
+}
+nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        list-style: none;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+}
+nav ul li {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 100%;
+        
+}
+nav ul li a {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100%;
+            height: 100%;
+            color: white;
+            text-decoration: none;
+            background-color: rgb(58, 58, 58);
+            
+}
+nav ul li :hover{
+                    background-color: white;
+                    color: black;
+                    border: 2px solid black;
+}
+main {
+    display: list-item;
+    height: 635px;
+}
+main h2 {
+        display: list-item;
+        font-size: 30px;
+        
+
+}
+main p {
+        display: list-item;
+        font-size: 20px;
+        height: 200px;
+        border: 2px solid black;
+        padding: 5px;
+        list-style: none;
+}
+footer {
+    display: flex;
+    border: 2px solid black;
+    background-color: black;
+    padding: 5px;
+}
+footer a{
+        margin-left: 30px;
+
+}
+footer a :last-child {
+                    border-radius: 50%;
+
+
+}
