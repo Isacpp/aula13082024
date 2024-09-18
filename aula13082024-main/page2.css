@@ -1,14 +1,15 @@
 * {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-
+    background-color: rgb(196, 196, 196);
+    
 }
-
 header {
         display: flex;
         align-items: center;
         background-color: black;
         border: 2px;
         height: 200px;
+        background-color: black;
 
 }
 header h1 {
@@ -17,15 +18,20 @@ header h1 {
     color: white;
     width: 100%;
     height: 100%;
-    margin-left: 90px;
+    margin-left: 40px;
     font-size: 50px;
+    background-color: black;
+    
 
 }
 header h2 {
     color: white;
-    position: fixed;
-    right: 20px;
-    top: 150px;
+    position: relative;
+    left: 0px;
+    top: 80px;
+    background-color: black;
+    list-style: none;
+    width: 315px;
 
 
 }
@@ -66,9 +72,9 @@ nav ul li a {
             
 }
 nav ul li :hover{
-                    background-color: white;
+                    background-color: rgb(196, 196, 196);
                     color: black;
-                    border: 2px solid black;
+                    transition-duration: 0.5s;
 }
 main {
     display: list-item;
@@ -90,16 +96,16 @@ main p {
 }
 footer {
     display: flex;
-    border: 2px solid black;
     background-color: black;
     padding: 5px;
 }
 footer a{
-        margin-left: 30px;
-
+        margin-left: 10px;
+        background-color: black;
 }
 footer a :last-child {
                     border-radius: 50%;
+                    background-color: black;
 
 
 }
