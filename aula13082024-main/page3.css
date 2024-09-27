@@ -1,7 +1,7 @@
 * {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(196, 196, 196);
-    
+    margin: 0%;
 }
 header {
         display: flex;
@@ -131,6 +131,7 @@ nav ul li a:hover{
 main {
     display: flex;
     flex-direction: column;
+    height: 652px;
     
 
 
@@ -173,13 +174,14 @@ main #frame2 #text2{
 }
 main h2 {
         font-size: 30px;
+        margin-bottom: 40px;
         
         
 
 }
 main p {
         font-size: 20px;
-        height: 150px;
+        height: 190px;
         border: 2px solid black;
         padding: 5px;
 }

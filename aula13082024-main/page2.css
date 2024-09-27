@@ -1,6 +1,7 @@
 * {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(196, 196, 196);
+    margin: 0%;
     
     
 }
@@ -130,11 +131,14 @@ nav ul li a:hover{
 }
 main {
     display: list-item;
-    height: 635px;
+    height: 630px;
+    
 }
 main h2 {
         display: list-item;
         font-size: 30px;
+        margin: 20px;
+        list-style: none;
         
 
 }
@@ -145,6 +149,8 @@ main p {
         border: 2px solid black;
         padding: 5px;
         list-style: none;
+        margin-left: 20px;
+        margin-right: 20px;
 }
 footer {
     display: flex;
